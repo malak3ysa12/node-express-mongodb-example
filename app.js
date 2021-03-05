@@ -18,7 +18,7 @@ var MongoClient = require('mongodb').MongoClient;
 var db;
 
 // setup mongo connection
-MongoClient.connect('mongodb://127.0.0.1:27017/myMongoDB', function(err, database) {
+MongoClient.connect('mongodb+srv://malak:Autoauto12@cluster0.vod10.mongodb.net/test', function(err, database) {
 	if (err) {
 		throw err;
 	}
